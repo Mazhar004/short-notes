@@ -30,6 +30,8 @@
   * ``` objects.all() ```
 * ### Django kill port: ###
   * ``` sudo lsof -t -i tcp:8000 | xargs kill -9 ```
+* ### Django database backup ###
+  * ``` python manage.py dumpdata > data_dump.json ```
 
 ## Django Settings: ##
   * TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
