@@ -34,14 +34,14 @@
   * ``` python manage.py dumpdata > data_dump.json ```
 
 ## Django Settings: ##
-  * TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
-  * Change in Templates   ‘DIRS': [TEMPLATE_DIR],
-  * STATIC_DIR = os.path.join(BASE_DIR, 'assets')
-  * STATIC_URL = '/static/'
-  * STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-  * MEDIA_URL = '/media/'
-  * MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-  * STATICFILES_DIRS=[STATIC_DIR,MEDIA_ROOT,]
+  * ``` TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates') ```
+  * ``` Change in Templates   ‘DIRS': [TEMPLATE_DIR], ```
+  * ``` STATIC_DIR = os.path.join(BASE_DIR, 'assets') ```
+  * ``` STATIC_URL = '/static/' ```
+  * ``` STATIC_ROOT = os.path.join(BASE_DIR, 'static') ```
+  * ``` MEDIA_URL = '/media/' ```
+  * ``` MEDIA_ROOT = os.path.join(BASE_DIR, 'media') ```
+  * ``` STATICFILES_DIRS=[STATIC_DIR,MEDIA_ROOT,] ```
   * ### Example: ###
     * ``` {% load static %} ```
     * ``` link rel="stylesheet" href="{% static 'css/custom.css' %}"> ```
@@ -61,7 +61,7 @@
 ## Django Localization & Internationalization: ##
   * ``` from django.utils.translation import ugettext_lazy (in views) ```
   * ``` from django.utils import translation (in views) ```
-  * language_code=’es-ES’
+  * ``` language_code='es-ES' ```
   * ``` translation.activate(language_code) ```
   * ``` output=ugettext_lazy(‘Welcome to my site’) ```
   * Go to the app root directory:
