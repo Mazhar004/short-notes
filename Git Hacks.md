@@ -1,6 +1,6 @@
-# Github Basics #
+# Git Basics #
 
-## Github: ##
+## Git: ##
 ### Git initialize,file create,add,commit: ###
   * ``` git init ``` To initialize in root directory
   * ``` git status ``` To check current status
