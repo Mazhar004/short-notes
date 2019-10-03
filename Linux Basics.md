@@ -12,7 +12,7 @@
   - ``` cd / ``` 
 - Change directory to previous folder
   - ``` cd .. ``` or ``` cd - ``` 
-- Create super user at once ( Bad Practice )
+- Create to super user root ( Bad Practice )
   - ``` sudo su ``` 
 - To check present working directory 
   - ``` pwd ```
