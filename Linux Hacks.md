@@ -1,0 +1,59 @@
+# Linux Basic Commands #
+
+- Update Linux built-in package
+    - ``` sudo apt-get update ```
+- Install software
+    - ``` sudo apt install package_name ```
+- Uninstall software
+    - ``` sudo apt-get purge package_name ``` 
+- List of file & folder
+  - ``` ls ``` or ``` ls -l ``` 
+- Change directory to root
+  - ``` cd / ``` 
+- Change directory to previous folder
+  - ``` cd .. ``` or ``` cd - ``` 
+- Create super user at once ( Bad Practice )
+  - ``` sudo su ``` 
+- To check present working directory 
+  - ``` pwd ```
+- Create file single or multiple
+  - ``` touch a.txt b.txt ``` ( It will create two file "a.txt" & "b.txt" in present working directory )
+- Create a new copy of "a.txt" as "a_backup.txt"
+  - ``` cp a.txt a_backup.txt ``` ( We can also decleare directory with file name. Such as /home/a_backup.txt )
+- Create a new copy of "a" folder
+  - ``` cp a -r a_backup ``` ( -r Recursively create copy of folder and it's file )
+- Delete "a.txt" file
+  - ``` rm a.txt ```
+- Delete "a" folder 
+  - ``` rm -r a ``` ( -r Recursively delete folder and it's file )
+  - ``` rm -rf a ``` ( f forcefully delete folder )
+- Restore or move a file from another directory to current working directory
+  - ``` mv /home/a_backup.txt a.txt ```
+- History check 
+  - ``` history ``` 
+- Storage memory check
+  - ``` df -hT ```
+- Free ram check
+  - ``` free -mh ``` 
+- Create new user for computer login
+  - ``` adduser new_name ``` 
+- Check user list ( Need to be in root directory ) 
+  - ``` cat /etc/passwd ```
+- Change password for given username ( If username will not given, it will change current username password )
+  - ``` sudo passwd username ``` 
+- It will show the detail of a command 
+  - ``` man command_name ```  Example: ``` man cat ```
+- Delete user and it's file. 
+  -  ``` sudo userdel -r username ```  ( -r Recursively used for deleting it's file )
+- Zipping a file
+  - ``` zip to_desired_name.zip from_source_file_name ```
+- Unzip file 
+  - ``` unzip zip_filename``` 
+- Edit "a.txt" file from command line
+  - ``` vim a.txt ``` 
+    - Press I for insert or edit
+    - Press ``` shift + : ``` 
+    - Then type "wq" & press enter ( w = write & q = quit ) Changes will be saved
+    - Then type "q!" ( Forcefully quit ) Changes will not be saved
+- To see currently running task
+  - ``` top ``` 
