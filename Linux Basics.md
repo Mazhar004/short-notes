@@ -26,7 +26,7 @@
   - ``` rm a.txt ```
 - Delete "a" folder 
   - ``` rm -r a ``` ( -r Recursively delete folder and it's file )
-  - ``` rm -rf a ``` ( f forcefully delete folder )
+  - ``` rm -rf a ``` ( f Forcefully delete folder )
 - Restore or move a file from another directory to current working directory
   - ``` mv /home/a_backup.txt a.txt ```
 - History check 
