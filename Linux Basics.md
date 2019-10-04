@@ -31,9 +31,9 @@
   - ``` mv /home/a_backup.txt a.txt ```
 - History check 
   - ``` history ``` 
-- Storage memory check
+- Storage check
   - ``` df -hT ```
-- Free ram check
+- Free ram or memory check
   - ``` free -mh ``` 
 - Create new user for computer login
   - ``` adduser new_name ``` 
