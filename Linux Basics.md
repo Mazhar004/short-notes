@@ -10,8 +10,10 @@
   - ``` ls ``` or ``` ls -l ``` 
 - Change directory to root
   - ``` cd / ``` 
-- Change directory to previous folder
-  - ``` cd .. ``` or ``` cd - ``` 
+- Change directory to previous working directory
+  - ``` cd - ``` 
+- Change directory to parent directory
+  - ``` cd .. ```
 - Create to super user root ( Bad Practice )
   - ``` sudo su ``` 
 - To check present working directory 
