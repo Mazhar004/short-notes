@@ -8,6 +8,7 @@
   * ``` git add index.html ``` Add single file in a project
   * ``` git add . ``` Add all file/folder in a project
   * ``` git commit -m "message you want to type" ```
+  * ``` git clone link ``` Link from online github file , clone the data of a repositories
 ### Git branch operation: ###
   * ``` git branch login ``` Here I am creating a new branch called login
   * ``` git checkout login ``` Moving from existing branch to login branch
@@ -16,7 +17,6 @@
   * ``` git merge login ``` Add login branch with current branch ( Use git status to check your current branch )
 ### Git pull,push to live: ###
   * ``` git pull ``` Download file if any changes made by another developer
-  * ``` git clone link ``` Link from online github file , clone the data of a repositories
   * ``` git push --set-upstream origin login ``` Push file on github branch login
   * ``` git push -u origin master ``` Push file on github master
   * ``` git rm -r --cached . ``` Clear cached file..Start again
