@@ -21,7 +21,7 @@
        * Copy ``` Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc ```
        * Press ``` shift + : ``` 
        * Then type "wq" & press enter ( w = write & q = quit ) Changes will be saved
-   * Or you can just manually open ssh_config file, write ``` Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc ``` & save then exit
+   * Or you can just simply open ssh_config file, write ``` Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc ``` & save then exit
 
 ### Git initialize,file create,add,commit: ###
   * ``` git config --global user.name "Mazhar Hossain" ``` Add username
