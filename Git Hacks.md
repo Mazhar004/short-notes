@@ -29,7 +29,7 @@
   * ``` git push ```
 ### Git Stash (Temporary Storage) ###
   * ``` git stash ``` Create temporary location to save changes file. It will also use for revert changes
-  * ``` git stash apply ``` You can add stash file on current branch. Last stash file will not be removed ffrom stash
+  * ``` git stash apply ``` You can apply stash file changes on current branch. Last stash file will not be removed from stash
   * ``` git stash pop ```  It will remove last stash file from stash
   * ``` git stash drop ``` Clean stash file
 ### Git commit history & delete (Temporary Storage) ###
