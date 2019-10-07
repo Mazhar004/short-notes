@@ -13,6 +13,14 @@
   * ``` ssh-add ~/.ssh/id_rsa ```
   * Go to local ssh directory copy public key to github setting -> ssh-keys
   * ``` git clone your_github_repo_ssh ```
+  
+   #### If you will face "Unable to negotiate" or "Cipher key" related problem: ####
+  
+   * ``` sudo vi /etc/ssh/ssh_config  ``` It will open an comand line editor
+       * Press I for insert or edit
+       * Copy ``` Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc ```
+       * Press ``` shift + : ``` 
+       * Then type "wq" & press enter ( w = write & q = quit ) Changes will be saved
 
 ### Git initialize,file create,add,commit: ###
   * ``` git config --global user.name "Mazhar Hossain" ``` Add username
