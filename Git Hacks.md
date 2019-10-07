@@ -1,12 +1,28 @@
 # Git Basics #
 
 ## Git: ##
+
+### Git install: ###
+  * ``` sudo apt-get update ``` System update
+  * ``` sudo apt-get install git-all ``` Git install
+  * ``` sudo apt-get install git-gui ``` Git gui install
+  
+### SSH key generate and configure: ###
+  * ``` ssh-keygen -t rsa -b 4096 -C "your github repo ssh" ``` Generate SSH key
+  * ``` eval "$(ssh-agent -s)" ```
+  * ``` ssh-add ~/.ssh/id_rsa ```
+  * Go to local ssh directory copy public key to github setting -> ssh-keys
+  * ``` git clone your_github_repo_ssh ```
+
 ### Git initialize,file create,add,commit: ###
+  * ``` git config --global user.name "Mazhar Hossain" ``` Add username
+  * ``` git config --global user.email "github email" ``` Add email address
   * ``` git init ``` To initialize in root directory
   * ``` git status ``` To check current status
   * ``` touch index.html ``` Create index file
   * ``` git add index.html ``` Add single file in a project
   * ``` git add . ``` Add all file/folder in a project
+  * ``` git reset filename ``` Move file from staging area to working directory
   * ``` git commit -m "message you want to type" ```
   * ``` git clone link ``` Link from online github file , clone the data of a repositories
 ### Git branch operation: ###
@@ -31,7 +47,7 @@
   * ``` git stash ``` Create temporary location to save changes file. It will also use for revert changes
   * ``` git stash apply ``` You can apply stash file changes on current branch. Last stash file will not be removed from stash
   * ``` git stash pop ```  It will remove last stash file from stash
-  * ``` git stash drop ``` Clean stash file
+  * ``` git stash drop ``` Clean stash file 
 ### Git commit history & delete (Temporary Storage) ###
   * ``` git log ``` (To check  commit)
   * ``` git reset --soft HEAD~1 ``` Delete last commit
