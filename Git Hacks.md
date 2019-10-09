@@ -9,8 +9,8 @@
   
 ### SSH key generate and configure: ###
   * ``` ssh-keygen -t rsa ``` or ``` ssh-keygen -t rsa -b 4096 -C "your github repo ssh" ``` Generate SSH key
-  * ``` eval "$(ssh-agent -s)" ```
-  * ``` ssh-add ~/.ssh/id_rsa ```
+  * ``` eval "$(ssh-agent -s)" ``` Optional
+  * ``` ssh-add ~/.ssh/id_rsa ``` Optional
   * Go to local ssh directory copy public key to github setting -> ssh-keys
   * ``` git clone your_github_repo_ssh ```
   
