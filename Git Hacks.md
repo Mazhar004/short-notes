@@ -8,7 +8,7 @@
   * ``` sudo apt-get install git-gui ``` Git gui install
   
 ### SSH key generate and configure: ###
-  * ``` ssh-keygen -t rsa -b 4096 -C "your github repo ssh" ``` Generate SSH key
+  * ``` ssh-keygen -t rsa ``` or ``` ssh-keygen -t rsa -b 4096 -C "your github repo ssh" ``` Generate SSH key
   * ``` eval "$(ssh-agent -s)" ```
   * ``` ssh-add ~/.ssh/id_rsa ```
   * Go to local ssh directory copy public key to github setting -> ssh-keys
