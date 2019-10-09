@@ -28,6 +28,7 @@
   * ``` git config --global user.email "github email" ``` Add email address
   * ``` git init ``` To initialize in root directory
   * ``` git status ``` To check current status
+  * ``` git diff ``` To check difference
   * ``` touch index.html ``` Create index file
   * ``` git add index.html ``` Add single file in a project
   * ``` git add . ``` Add all file/folder in a project
@@ -39,11 +40,16 @@
   * ``` git checkout login ``` Moving from existing branch to login branch
   * ``` git checkout -b login ``` Create a branch and move to login branch instantly
   * ``` git checkout master ``` Now I am in master branch
+  * ``` git branch ``` To see local branch name
+  * ``` git branch -r ``` To see remote branch name
+  * ``` git branch -a ``` To see all branch name
+  * ``` git branch -d branch_name ``` To delete branch
+  * ``` git branch -D branch_name ``` To delete branch forcefully
   * ``` git merge login ``` Add login branch with current branch ( Use git status to check your current branch )
 ### Git pull,push to live: ###
   * ``` git pull ``` Download file if any changes made by another developer
-  * ``` git push --set-upstream origin login ``` Push file on github branch login
-  * ``` git push -u origin master ``` Push file on github master
+  * ``` git push origin login ``` Push file on github branch login
+  * ``` git push origin master ``` Push file on github master
   * ``` git rm -r --cached . ``` Clear cached file..Start again
   * ``` git remote ``` To see origin
   * ``` git remote add origin repisitory_link ``` Repisitory_link from github
@@ -58,7 +64,9 @@
   * ``` git stash pop ```  It will remove last stash file from stash
   * ``` git stash drop ``` Clean stash file 
 ### Git commit history & delete (Temporary Storage) ###
-  * ``` git log ``` (To check  commit)
+  * ``` git log ``` To check  commit history
+  * ``` git commit --ammend -m "New Message" ``` To update last commit
+  * ``` git commit --ammend -m --noedit ``` Don't want to update last commit
   * ``` git reset --soft HEAD~1 ``` Delete last commit
   * ``` git reset --soft HEAD~2 ``` Delete last two commit
 ### Git for parent branch ###
