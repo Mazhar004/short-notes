@@ -75,8 +75,9 @@
   * ``` git stash drop ``` Clean stash file 
 ### Git commit history & delete (Temporary Storage) ###
   * ``` git log ``` To check  commit history
-  * ``` git commit --ammend -m "New Message" ``` To update last commit
-  * ``` git commit --ammend -m --noedit ``` Don't want to update last commit
+  * ``` git commit -a --amend ``` It will open editor window with last commit and we can change
+  * ``` git commit --amend -m "New Message" ``` To update last commit
+  * ``` git commit --amend -m --noedit ``` Don't want to update last commit
   * ``` git reset --soft HEAD~1 ``` Delete last commit
   * ``` git reset --soft HEAD~2 ``` Delete last two commit
 ### Git for parent branch ###
