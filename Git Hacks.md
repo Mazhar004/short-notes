@@ -45,7 +45,7 @@
   * ``` git branch -a ``` To see all branch name
   * ``` git branch -d branch_name ``` To delete branch
   * ``` git branch -D branch_name ``` To delete branch forcefully
-  * ``` git merge login ``` Add login branch with current branch ( Use git status to check your current branch )
+  * ``` git merge login ``` Merge login branch with current branch ( Use git status to check your current branch )
 ### Git pull,push to live: ###
   * ``` git pull ``` Download file if any changes made by another developer
   * ``` git push origin login ``` Push file on github branch login
@@ -54,9 +54,19 @@
   * ``` git remote ``` To see origin
   * ``` git remote add origin repisitory_link ``` Repisitory_link from github
 ### Git Conflict resolve: ###
+  
+  #### One way: ####
+  
   * ``` git --rebase origin master ``` 
   * ``` git mergetool ``` It will open interface, you need to resolve conflict by your own
   * ``` git rebase continue ```
+  
+  #### Another way: ####
+  
+  * ``` git merge login ```  Merge login with current branch
+  * ``` git mergetool ``` Open mergetool if conflict arisen
+  
+  #### Then: ####
   * ``` git push ```
 ### Git Stash (Temporary Storage) ###
   * ``` git stash ``` Create temporary location to save changes file. It will also use for revert changes
