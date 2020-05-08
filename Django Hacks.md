@@ -1,7 +1,7 @@
 # Django Information to Start a Project #
 
 ## Django Environment Setup ##
-- Python install ```python sudo apt install python3 ```
+- Python install ```sudo apt install python3 ```
 - Virtual environment install ```sudo apt install python3-venv```
 - Create environment ‘venv’ ```python3 -m venv venv``` (2nd venv is your virtual environment name )
 - Running virtual environment ```source venv/bin/activate```
