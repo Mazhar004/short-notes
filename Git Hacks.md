@@ -75,6 +75,8 @@
   * ``` git stash drop ``` Clean stash file 
 ### Git commit history & delete (Temporary Storage) ###
   * ``` git log ``` To check  commit history
+  * ``` git commit -m "Message you want to type"``` commit message
+  * ``` git commit -m ``` commit message by opening editor
   * ``` git commit -a --amend ``` It will open editor window with last commit and we can change
   * ``` git commit --amend -m "New Message" ``` To update last commit
   * ``` git commit --amend -m -no-edit ``` Don't want to update last commit
