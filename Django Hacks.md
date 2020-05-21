@@ -70,3 +70,12 @@
     * It will create .po file
     * After declare translation need to run ``` django-admin compilemessages ```
     * It will create .mo file (Binary file)
+
+## Django Code Format: ##
+  * All apps should contain urls.py
+  * Main project url consist of include urls of individual app
+  * All url redirect page name will be the url name
+  * Function names should be small letters and for long names put underscore between words.
+  * Class Name (all words) start with a capital letter such as (SocialLogin),Same rule for model
+  * Divide page into sections (Start with _ )
+  * Divide sections into component (Start with __ )
