@@ -7,7 +7,7 @@
   * ``` sudo apt-get install git-all ``` Git install
   * ``` sudo apt-get install git-gui ``` Git gui install
   
-### SSH key generate and configure: ###
+### SSH key generate and configure [Link](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent): ###
   * ``` ssh-keygen -t rsa ``` or ``` ssh-keygen -t rsa -b 4096 -C "your github repo ssh" ``` Generate SSH key
   * ``` eval "$(ssh-agent -s)" ``` Optional
   * ``` ssh-add ~/.ssh/id_rsa ``` Optional
