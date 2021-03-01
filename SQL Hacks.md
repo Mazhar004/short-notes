@@ -1,4 +1,6 @@
 # My SQL #
+## Install
+ * ``` sudo apt install mysql-server ```
 ## Start & Stop MySql ##
   * ``` systemctl start mysql ```
   * ``` mysql -u 'root' -p ``` Default password is root
